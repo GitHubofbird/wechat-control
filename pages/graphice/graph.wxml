@@ -1,0 +1,8 @@
+<view>
+   <button class='btn'>
+    当前坐标: ({{x}}, {{y}})
+  </button>
+  <canvas canvas-id="myCanvas" bindtouchstart="start" bindtouchmove="move" bindtouchend="end">
+  </canvas>
+ 
+</view>

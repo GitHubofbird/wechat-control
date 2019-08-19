@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view>
+  <view class="marquee">
+    <!-- <text class='call'>公告 :</text> -->
+    <text class='text'>{{marquee_text}}</text>
+  </view>
+  <view class="images">
+    <swiper indicator-dots='true'>
+      <swiper-item class='item'>
+        <image src='../images/header-1.jpg'></image>
+      </swiper-item>
+      <swiper-item class='item'>
+        <image src='../images/header-3.jpg'></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class='main'>
+    <input class="requestURL" type="text" placeholder="{{PromoteMsg}}" focus='1' cursor='10' confirm-type="done" bindinput='getURL' auto-focus='true'></input>
+    <button class='enter' bindtap='enterClicked'>{{enterBtnMsg}}</button>
+  </view>
+</view>

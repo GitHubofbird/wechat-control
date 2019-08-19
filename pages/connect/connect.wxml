@@ -1,0 +1,4 @@
+<!--pages/connect/connect.wxml-->
+<button>WIFI名称:{{SSID}}</button>
+<input placeholder='请输入密码' password='true' confirm-type='done' bindinput='getPasswd'></input>
+<button catchtap='connect'>连接WIFI</button>

@@ -1,0 +1,15 @@
+<view class='content'>
+  <view class='list_t' wx:if='{{urlList==null||urlList.length==0}}'>
+    <text>当前无服务器可用</text>
+  </view> 
+  <view class='list'  wx:if='{{urlList!=null||urlList.length!=0}}'>   
+     <view class='item' wx:key="item" wx:for='{{urlList}}'>
+      <text>{{item.url}}</text>
+      <button catchtap='connect' data-url='{{item.url}}'>连接</button>
+    </view>
+  </view> 
+  <view class='addBtn' catchtap='addUrl'>
+    <view class='e1'></view>
+    <view class='e2'></view>
+  </view>  
+</view>

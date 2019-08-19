@@ -1,0 +1,15 @@
+<view class=''>
+  <view class='banner'>
+    <button>wifi状态:
+      <text class='msg'>{{wifiStatus}}</text>
+    </button>
+    <button bindtap='getWifiList'>搜索wifi</button>
+  </view>
+  <text class='Cuse' wx:if="{{wifiList.length!=0}}">可用WLAN列表</text>
+  <view class='wifilist' wx:for="{{wifiList}}">
+    <button data-wifi='{{item}}' class='btn' catchtap='connectWifi'>{{item.SSID}}
+      <slider wx:if='{{item.secure==true}}' class='sli' value='{{item.signalStrength}}' step='1' min='0' max='100' block-size='12' activeColor='#0f0'></slider>
+       <slider wx:if='{{item.secure!=true}}' class='sli' value='{{item.signalStrength}}' step='1' min='0' max='100' block-size='12' activeColor='#f00'></slider>
+    </button>
+  </view>
+</view>

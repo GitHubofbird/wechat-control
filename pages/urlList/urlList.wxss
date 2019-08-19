@@ -1,0 +1,51 @@
+
+.item{
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  border-top: 2rpx solid #666666;
+}
+.item text{
+  flex: 8;
+  color: #ffffff;
+  line-height: 100rpx;
+  text-align: center;
+  background-color: #ADD8E6;
+  font-size: 36rpx;
+}
+.item button{
+  flex: 2;
+  background-color: #ADD8E6;
+  border-radius: 0rpx;  
+}
+.list_t{
+  height: 100vh;
+  text-align: center;
+}
+.list_t text{  
+ line-height: 100vh;
+ color: #cccccc;
+}
+/* 添加按钮 */
+.content .addBtn{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  position: fixed;
+  left: 580rpx;
+  top: 1000rpx;
+  background-color:rgba(168, 73, 245, 0.3)
+  
+}
+.content .addBtn .e1{
+  margin: 49rpx auto;
+  width: 80rpx;
+  height: 10rpx;
+  background-color: #ffffff;
+}
+.content .addBtn .e2{
+  margin: -96rpx auto;
+  width: 10rpx;
+  height: 80rpx;
+  background-color: #ffffff;
+}

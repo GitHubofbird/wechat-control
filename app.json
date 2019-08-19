@@ -1,0 +1,56 @@
+{
+  "pages": [    
+    "pages/urlList/urlList",
+    "pages/index/index",
+    "pages/graphice/graph",
+    "pages/drive/drive",
+    "pages/wifi/wifi",
+    "pages/connect/connect"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ADD8E6",
+    "navigationBarTitleText": "树莓派小车",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "backgroundColor": "#ADD8E6",
+    "borderStyle": "black",
+    "selectedColor": "#333",
+    "list": [
+      {
+        "selectedIconPath": "pages/images/index.png",
+        "pagePath": "pages/urlList/urlList",
+        "iconPath": "pages/images/index.png",
+        "text": "首页"
+        
+      },
+      {
+        "selectedIconPath": "pages/images/byhand.png",
+        "pagePath": "pages/graphice/graph",
+        "iconPath": "pages/images/byhand.png",
+        "text": "指尖触控"
+      },
+      {
+        "selectedIconPath": "pages/images/byself.png",
+        "pagePath": "pages/drive/drive",
+        "iconPath": "pages/images/byself.png",
+        "text": "手动操作"
+      },
+      {
+        "selectedIconPath": "pages/images/wifi.png",
+        "pagePath": "pages/wifi/wifi",
+        "iconPath": "pages/images/wifi.png",
+        "text": "WIFI连接"
+      }
+    ]
+  },  
+  "sitemapLocation": "sitemap.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "为完美使用小程序,请允许获取您的位置权限!"
+    }
+  }
+}

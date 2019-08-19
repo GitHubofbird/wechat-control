@@ -1,2 +1,4 @@
-# wechat-control
-通过微信小程序控制树莓派小车
+## raspberry_car
+
+树莓派小车微信端代码
+

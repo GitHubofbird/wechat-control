@@ -1,0 +1,27 @@
+/* pages/blueteeth/connect.wxss */
+.msg {
+  color: red;
+  font-weight: 700;
+}
+.wifilist {
+  height: 80rpx;
+ 
+}
+.wifilist btn{
+  background-color: green;
+  color: #fff;
+  height: 80rpx;
+   position: relative;
+   line-height: 80rpx;
+}
+.wifilist .btn .sli{
+  position: absolute;
+  height: 4rpx;
+  width: 100vw;
+  top: 36rpx;
+  left: 0; 
+  
+}
+.Cuse{
+  color: green;
+}

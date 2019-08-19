@@ -1,0 +1,53 @@
+.manues{  
+  width: 600rpx;
+  height: 600rpx;
+  margin: 200rpx auto;
+  position: relative;
+
+}
+.manues view{
+  width: 150rpx;
+  height: 150rpx;
+  background-color: skyblue;
+  position: absolute;
+  text-align: center;
+  line-height: 150rpx;
+}
+.manues view:active{
+  background-color: red;
+}
+.manues .top{
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.manues .right{
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.manues .bottom{
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.manues .left{
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.manues .stop{
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+  margin-top: -75rpx;
+  
+}
+.manues .auto{
+  left: 50%;
+  transform: translateX(-50%);
+  top: -170rpx;
+  width: 700rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+}

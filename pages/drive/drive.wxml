@@ -1,0 +1,20 @@
+<view class='manues'>
+  <view class='auto' bindtap='carMove' data-direction='A'>
+    <text>AUTO</text>
+  </view>
+  <view class='top' bindtouchstart='carMove' data-direction='T' bindtouchend='carStop'>
+    <text>T</text>
+  </view>
+  <view class='right' bindtouchstart='carMove' data-direction='R' bindtouchend='carStop'>
+    <text>R</text>
+  </view>
+  <view class='stop' bindtouchstart='carStop' data-direction='S' bindtouchend='carStop'>
+    <text style='color:red;'>||</text>
+  </view>
+  <view class='bottom' bindtouchstart='carMove' data-direction='B' bindtouchend='carStop'>
+    <text>B</text>
+  </view>
+  <view class='left' bindtouchstart='carMove' data-direction='L' bindtouchend='carStop'>
+    <text>L</text>
+  </view>
+</view>
